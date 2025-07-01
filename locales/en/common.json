@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "tours": "Tours",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slides": {
+      "tourism": {
+        "title": "Discover Arabia Like Never Before",
+        "subtitle": "From iconic landmarks to hidden gems, our curated tours offer unforgettable experiences across the UAE and beyond."
+      },
+      "visa": {
+        "title": "Visa Made Simple, Travel Made Easy",
+        "subtitle": "Let our experts handle your visa and immigration process stress-free. Whether for tourism, work, or relocation – we've got you covered."
+      },
+      "education": {
+        "title": "Study in the UAE with Confidence",
+        "subtitle": "We help students find top schools, apply for study visas, and start a successful academic journey in the Emirates."
+      }
+    }
+  },
+  "features": {
+    "title": "Why Choose MilkyWay for UAE Travel",
+    "emiratesCard": {
+      "title": "All 7 Emirates",
+      "description": "Explore Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Ras Al Khaimah, and Umm Al Quwain"
+    },
+    "desertCard": {
+      "title": "Desert & City",
+      "description": "Experience both modern cityscapes and authentic desert adventures in one trip"
+    },
+    "luxuryCard": {
+      "title": "Luxury Experiences",
+      "description": "Access to exclusive hotels, dining, and attractions across the UAE"
+    }
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "description1": "MilkyWay Travel is your trusted UAE specialist—born from a passion for discovery and built by travel experts who have called the Emirates home for over a decade. We're more than just travel planners—we're your local insiders, committed to helping you explore, settle, and succeed in the heart of Arabia.",
+    "description2": "From <strong>tour planning, visa and immigration</strong> support to <strong>education consulting</strong>, we simplify your path into the UAE. Whether you're visiting for a few days, relocating for work, or building a new life here, we've got you covered.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To share the magic of the UAE through authentic, luxury experiences."
+    },
+    "stats": {
+      "founded": "Founded",
+      "uaeFocus": "UAE Focus"
+    }
+  },
+  "popularTours": {
+    "title": "Popular UAE Tours",
+    "subtitle": "Discover our most loved experiences across the Emirates. From thrilling desert adventures to luxury city tours, find your perfect UAE journey.",
+    "tours": {
+      "dubaiSkyline": {
+        "title": "Dubai Skyline",
+        "description": "Iconic Burj Khalifa Experience",
+        "duration": "Full Day • Photography",
+        "badge": "Most Popular"
+      },
+      "desertSafari": {
+        "title": "Desert Safari Adventure",
+        "description": "Thrilling dunes & authentic culture",
+        "duration": "Evening • Dinner • Entertainment"
+      },
+      "grandMosque": {
+        "title": "Grand Mosque",
+        "description": "Cultural Heritage",
+        "badge": "Cultural"
+      },
+      "dubaiMarina": {
+        "title": "Dubai Marina & Waterfront",
+        "description": "Modern architecture & yacht tours",
+        "duration": "Half Day • Boat Tour • Dining",
+        "badge": "Scenic"
+      },
+      "abuDhabi": {
+        "title": "Abu Dhabi Capital Tour",
+        "description": "Emirates Palace & city highlights",
+        "duration": "Full Day • Architecture • History",
+        "badge": "Capital"
+      }
+    }
+  },
+  "ourServices": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for all your UAE needs. From travel planning to visa assistance and educational guidance, we're your complete UAE service partner.",
+    "services": {
+      "visa": {
+        "title": "Visa & Immigration",
+        "description": "Complete visa processing and immigration services for UAE. From tourist visas to residency permits, we handle all documentation with expert guidance.",
+        "features": {
+          "tourist": "Tourist & Visit Visas",
+          "work": "Work Permits",
+          "residency": "Residency Services"
+        }
+      },
+      "education": {
+        "title": "Education",
+        "description": "Educational consulting and university placement services. We guide students to top UAE institutions and provide comprehensive academic support.",
+        "features": {
+          "admissions": "University Admissions",
+          "studentVisa": "Student Visa Assistance",
+          "scholarships": "Scholarship Guidance"
+        }
+      },
+      "travel": {
+        "title": "Travel & Tours",
+        "description": "Premium travel packages and customized tour experiences across the UAE. From luxury getaways to adventure expeditions, we create unforgettable journeys.",
+        "features": {
+          "packages": "Custom Tour Packages",
+          "hotels": "Hotel Bookings",
+          "transportation": "Transportation Services"
+        }
+      }
+    }
+  },
+  "statistics": {
+    "stats": {
+      "visitors": "UAE Visitors",
+      "emirates": "Emirates Covered",
+      "expertise": "Years UAE Expertise",
+      "experiences": "UAE Experiences"
+    }
+  },
+  "contacts": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to embark on your UAE adventure? Contact our travel experts today and let us craft the perfect Emirates experience for you.",
+    "contactInfo": {
+      "phone": {
+        "title": "Phone",
+        "value": "+971 56 619 9725"
+      },
+      "email": {
+        "title": "Email",
+        "value": "milkywaytravel@gmail.com"
+      },
+      "social": {
+        "title": "Follow Us",
+        "value": "@milkywaytravel_uae"
+      }
+    }
+  }
+}
