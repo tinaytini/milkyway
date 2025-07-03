@@ -27,12 +27,12 @@ export const WhoWeareSection = () => {
               className="text-lg mb-6 leading-relaxed"
               style={{ color: '#333333' }}
               dangerouslySetInnerHTML={{ __html: t('whoWeAre.description1') }}
-            ></p>
+            />
             <p
               className="text-lg mb-6 leading-relaxed"
               style={{ color: '#333333' }}
               dangerouslySetInnerHTML={{ __html: t('whoWeAre.description2') }}
-            ></p>
+            />
           </div>
 
           {/* Mission Card */}

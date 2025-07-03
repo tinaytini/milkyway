@@ -3,7 +3,7 @@
 import { useTranslation } from 'react-i18next';
 
 export const PopularTours = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
 
   return (
     <section className="relative z-10" style={{backgroundColor: '#DED6C9'}}>
@@ -11,10 +11,10 @@ export const PopularTours = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{color: '#317312'}}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{color: '#317312'}}>
             {t('popularTours.title')}
           </h2>
-          <p className="text-base sm:text-lg max-w-3xl mx-auto" style={{color: '#333333'}}>
+          <p className="text-lg max-w-3xl mx-auto" style={{color: '#333333'}}>
             {t('popularTours.subtitle')}
           </p>
         </div>
@@ -28,18 +28,18 @@ export const PopularTours = () => {
               style={{backgroundImage: 'url(/burj.jpg)'}}
             >
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
-              <div className="absolute bottom-4 left-4 text-white">
-                <h3 className="text-xl font-bold mb-1">
+              <div className="absolute bottom-6 left-6 text-white">
+                <h3 className="text-2xl md:text-3xl font-bold mb-2">
                   {t('popularTours.tours.dubaiSkyline.title')}
                 </h3>
-                <p className="text-sm opacity-90">
+                <p className="text-base md:text-lg opacity-90">
                   {t('popularTours.tours.dubaiSkyline.description')}
                 </p>
-                <div className="mt-1 text-xs opacity-75">
+                <div className="mt-2 text-sm opacity-75">
                   {t('popularTours.tours.dubaiSkyline.duration')}
                 </div>
               </div>
-              <div className="absolute top-3 right-3 bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full text-white text-xs font-semibold">
+              <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm font-semibold">
                 {t('popularTours.tours.dubaiSkyline.badge')}
               </div>
             </div>
@@ -53,60 +53,60 @@ export const PopularTours = () => {
             >
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
               <div className="absolute bottom-4 left-4 text-white">
-                <h3 className="text-xl font-bold mb-1">
+                <h3 className="text-2xl font-bold mb-1">
                   {t('popularTours.tours.desertSafari.title')}
                 </h3>
                 <p className="text-sm opacity-90">
                   {t('popularTours.tours.desertSafari.description')}
                 </p>
-                <div className="mt-1 text-xs opacity-75">
+                <div className="mt-1 text-sm opacity-75">
                   {t('popularTours.tours.desertSafari.duration')}
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Remaining tours in 2x2 grid for mobile */}
-          <div className="grid grid-cols-2 gap-4">
-            {/* Grand Mosque */}
-            <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-48">
-              <div 
-                className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
-                style={{backgroundImage: 'url(/Sheikh.jpg)'}}
-              >
-                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
-                <div className="absolute bottom-2 left-2 text-white">
-                  <h3 className="text-sm font-bold mb-1">
-                    {t('popularTours.tours.grandMosque.title')}
-                  </h3>
-                  <p className="text-xs opacity-90">
-                    {t('popularTours.tours.grandMosque.description')}
-                  </p>
-                </div>
-                <div className="absolute top-2 right-2 bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full text-white text-xs font-semibold">
-                  {t('popularTours.tours.grandMosque.badge')}
-                </div>
+          {/* Sheikh Zayed Mosque */}
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+            <div 
+              className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
+              style={{backgroundImage: 'url(/Sheikh.jpg)'}}
+            >
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
+              <div className="absolute bottom-3 left-3 text-white">
+                <h3 className="text-2xl font-bold mb-1">
+                  {t('popularTours.tours.grandMosque.title')}
+                </h3>
+                <p className="text-sm opacity-90">
+                  {t('popularTours.tours.grandMosque.description')}
+                </p>
+              </div>
+              <div className="absolute top-3 right-3 bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full text-white text-sm font-semibold">
+                {t('popularTours.tours.grandMosque.badge')}
               </div>
             </div>
+          </div>
 
-            {/* Dubai Marina */}
-            <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-48">
-              <div 
-                className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
-                style={{backgroundImage: 'url(/marina.jpg)'}}
-              >
-                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
-                <div className="absolute bottom-2 left-2 text-white">
-                  <h3 className="text-sm font-bold mb-1">
-                    {t('popularTours.tours.dubaiMarina.title')}
-                  </h3>
-                  <p className="text-xs opacity-90">
-                    {t('popularTours.tours.dubaiMarina.description')}
-                  </p>
+          {/* Dubai Marina */}
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+            <div 
+              className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
+              style={{backgroundImage: 'url(/marina.jpg)'}}
+            >
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
+              <div className="absolute bottom-4 left-4 text-white">
+                <h3 className="text-2xl font-bold mb-1">
+                  {t('popularTours.tours.dubaiMarina.title')}
+                </h3>
+                <p className="text-sm opacity-90">
+                  {t('popularTours.tours.dubaiMarina.description')}
+                </p>
+                <div className="mt-1 text-sm opacity-75">
+                  {t('popularTours.tours.dubaiMarina.duration')}
                 </div>
-                <div className="absolute top-2 right-2 bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full text-white text-xs font-semibold">
-                  {t('popularTours.tours.dubaiMarina.badge')}
-                </div>
+              </div>
+              <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm font-semibold">
+                {t('popularTours.tours.dubaiMarina.badge')}
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ export const PopularTours = () => {
             >
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300"></div>
               <div className="absolute bottom-4 left-4 text-white">
-                <h3 className="text-xl font-bold mb-1">
+                <h3 className="text-2xl font-bold mb-1">
                   {t('popularTours.tours.abuDhabi.title')}
                 </h3>
                 <p className="text-sm opacity-90">
@@ -129,7 +129,7 @@ export const PopularTours = () => {
                   {t('popularTours.tours.abuDhabi.duration')}
                 </div>
               </div>
-              <div className="absolute top-3 right-3 bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full text-white text-xs font-semibold">
+              <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm font-semibold">
                 {t('popularTours.tours.abuDhabi.badge')}
               </div>
             </div>
@@ -258,7 +258,7 @@ export const PopularTours = () => {
         <div className="hidden lg:block">
           <div className="grid grid-cols-4 grid-rows-4 gap-4 h-[500px] xl:h-[600px]">
             
-            {/* Image 1 - Large featured image (Dubai Skyline) */}
+            {/* Dubai Skyline - Large featured image */}
             <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
@@ -282,7 +282,7 @@ export const PopularTours = () => {
               </div>
             </div>
 
-            {/* Image 2 - Desert Safari (tall right) */}
+            {/* Desert Safari */}
             <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
@@ -303,7 +303,7 @@ export const PopularTours = () => {
               </div>
             </div>
 
-            {/* Image 3 - Sheikh Zayed Mosque */}
+            {/* Sheikh Zayed Mosque */}
             <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
@@ -324,7 +324,7 @@ export const PopularTours = () => {
               </div>
             </div>
 
-            {/* Image 5 - Dubai Marina */}
+            {/* Dubai Marina */}
             <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
@@ -348,7 +348,7 @@ export const PopularTours = () => {
               </div>
             </div>
 
-            {/* Image 6 - Abu Dhabi Experience */}
+            {/* Abu Dhabi Experience */}
             <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"

@@ -1,6 +1,6 @@
-import Homepage from '@/components/Homepage';
+import { redirect } from 'next/navigation';
 
-
-export default function Home() {
-  return <Homepage />;
+export default function RootPage() {
+  // Redirect to default locale (English)
+  redirect('/en');
 }

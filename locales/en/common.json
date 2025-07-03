@@ -128,6 +128,11 @@
   "contacts": {
     "title": "Get in Touch",
     "subtitle": "Ready to embark on your UAE adventure? Contact our travel experts today and let us craft the perfect Emirates experience for you.",
+    "whatsapp": {
+      "button": "Chat on WhatsApp",
+      "subtitle": "Get instant responses to your travel questions",
+      "defaultMessage": "Hi! I'm interested in learning more about your UAE travel services."
+    },
     "contactInfo": {
       "phone": {
         "title": "Phone",

@@ -6,8 +6,10 @@ import { Statistics } from "./Statistics";
 import { HeroSlider } from "./HeroSlider";
 import { Contacts } from "./Contacts";
 
-
-export default function Homepage() {
+interface HomepageProps {
+  locale?: string;
+}
+export default function Homepage({ locale }: HomepageProps) {
   return (
     <main className="relative">
       {/* Hero Section */}

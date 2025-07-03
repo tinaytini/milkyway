@@ -18,8 +18,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'ru', // Default language
-    fallbackLng: 'ru',
+    lng: 'en', // This will be overridden by the LanguageProvider
+    fallbackLng: 'en',
     
     interpolation: {
       escapeValue: false,
@@ -27,6 +27,16 @@ i18n
     
     ns: ['common'],
     defaultNS: 'common',
+    
+    // Enable server-side rendering support
+    react: {
+      useSuspense: false, // Disable suspense for SSR
+    },
+    
+    // Ensure immediate language switching
+    load: 'languageOnly',
+    cleanCode: true,
+    debug: false,
   });
 
 export default i18n;

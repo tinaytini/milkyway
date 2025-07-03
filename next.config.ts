@@ -1,16 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  i18n: {
-    locales: ['ru', 'en'],
-    defaultLocale: 'ru',
-    domains: [
-      {
-        domain: 'mwaytravels.com',
-        defaultLocale: 'ru',
-      }
-    ],
-  },
+  // Removed i18n configuration - not needed for App Router
 }
 
 export default nextConfig;

@@ -3,7 +3,7 @@
 import { useTranslation } from 'react-i18next';
 
 export const OurService = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
 
   return (
     <section className="bg-white relative z-10">
