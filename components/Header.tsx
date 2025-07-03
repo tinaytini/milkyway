@@ -67,7 +67,7 @@ export default function Header() {
           <div className="flex items-center">
             <button 
               onClick={scrollToTop}
-              className="flex items-center transition-transform hover:scale-105 duration-200"
+              className="flex items-center transition-transform hover:scale-105 duration-200 cursor-pointer"
             >
               <Image
                 src="/logo.svg"
@@ -88,7 +88,7 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={scrollToTop}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -98,7 +98,7 @@ export default function Header() {
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -108,7 +108,7 @@ export default function Header() {
             </button>
             <button 
               onClick={() => scrollToSection('tours')}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -118,7 +118,7 @@ export default function Header() {
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -128,7 +128,7 @@ export default function Header() {
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -141,7 +141,7 @@ export default function Header() {
             <div className="relative">
               <button
                 onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-                className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+                className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900 hover:bg-gray-100' 
                     : 'text-white/90 hover:text-white hover:bg-white/10 drop-shadow-md'
@@ -163,7 +163,7 @@ export default function Header() {
                       <button
                         key={lang.code}
                         onClick={() => handleLanguageChange(lang.code)}
-                        className={`w-full text-left px-4 py-2 text-sm flex items-center space-x-2 transition-colors ${
+                        className={`w-full text-left px-4 py-2 text-sm flex items-center space-x-2 transition-colors cursor-pointer ${
                           isScrolled 
                             ? 'text-gray-700 hover:bg-gray-100' 
                             : 'text-white hover:bg-slate-800'
@@ -184,7 +184,7 @@ export default function Header() {
             {/* Mobile Language Switcher */}
             <button
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-              className={`px-2 py-1 rounded transition-colors ${
+              className={`px-2 py-1 rounded transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -195,7 +195,7 @@ export default function Header() {
 
             <button 
               onClick={toggleMobileMenu}
-              className={`transition-colors ${
+              className={`transition-colors cursor-pointer ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-gray-900' 
                   : 'text-white/90 hover:text-white drop-shadow-md'
@@ -227,7 +227,7 @@ export default function Header() {
             <nav className="flex flex-col space-y-4">
               <button 
                 onClick={scrollToTop}
-                className={`transition-colors py-2 text-left ${
+                className={`transition-colors py-2 text-left cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900' 
                     : 'text-white/90 hover:text-white drop-shadow-md'
@@ -237,7 +237,7 @@ export default function Header() {
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className={`transition-colors py-2 text-left ${
+                className={`transition-colors py-2 text-left cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900' 
                     : 'text-white/90 hover:text-white drop-shadow-md'
@@ -247,7 +247,7 @@ export default function Header() {
               </button>
               <button 
                 onClick={() => scrollToSection('tours')}
-                className={`transition-colors py-2 text-left ${
+                className={`transition-colors py-2 text-left cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900' 
                     : 'text-white/90 hover:text-white drop-shadow-md'
@@ -257,7 +257,7 @@ export default function Header() {
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className={`transition-colors py-2 text-left ${
+                className={`transition-colors py-2 text-left cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900' 
                     : 'text-white/90 hover:text-white drop-shadow-md'
@@ -267,7 +267,7 @@ export default function Header() {
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className={`transition-colors py-2 text-left ${
+                className={`transition-colors py-2 text-left cursor-pointer ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-gray-900' 
                     : 'text-white/90 hover:text-white drop-shadow-md'
@@ -283,7 +283,7 @@ export default function Header() {
                   <button
                     key={lang.code}
                     onClick={() => handleLanguageChange(lang.code)}
-                    className={`w-full text-left py-2 flex items-center space-x-2 transition-colors ${
+                    className={`w-full text-left py-2 flex items-center space-x-2 transition-colors cursor-pointer ${
                       isScrolled 
                         ? 'text-gray-700 hover:text-gray-900' 
                         : 'text-white/90 hover:text-white drop-shadow-md'
@@ -306,7 +306,7 @@ export default function Header() {
                 <button
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang.code)}
-                  className={`w-full text-left px-4 py-2 text-sm flex items-center space-x-2 text-gray-700 hover:bg-gray-100 ${
+                  className={`w-full text-left px-4 py-2 text-sm flex items-center space-x-2 text-gray-700 hover:bg-gray-100 cursor-pointer ${
                     currentLanguage === lang.code ? 'font-semibold' : ''
                   }`}
                 >

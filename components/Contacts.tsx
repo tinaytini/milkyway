@@ -19,7 +19,7 @@ export const Contacts = () => {
                 alt="MilkyWay Travel Logo"
                 width={180}
                 height={60}
-                className="transition-transform hover:scale-105 duration-200"
+                className="transition-transform hover:scale-105 duration-200 cursor-pointer"
                 priority
               />
             </div>
