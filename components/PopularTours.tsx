@@ -22,7 +22,7 @@ export const PopularTours = () => {
         {/* Mobile Layout - Stack vertically */}
         <div className="block sm:hidden space-y-4">
           {/* Dubai Skyline */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group h-64">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
               style={{backgroundImage: 'url(/burj.jpg)'}}
@@ -46,7 +46,7 @@ export const PopularTours = () => {
           </div>
 
           {/* Desert Safari */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group h-64">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
               style={{backgroundImage: 'url(/de.jpg)'}}
@@ -67,7 +67,7 @@ export const PopularTours = () => {
           </div>
 
           {/* Sheikh Zayed Mosque */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group h-64">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
               style={{backgroundImage: 'url(/Sheikh.jpg)'}}
@@ -88,7 +88,7 @@ export const PopularTours = () => {
           </div>
 
           {/* Dubai Marina */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group h-64">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
               style={{backgroundImage: 'url(/marina.jpg)'}}
@@ -112,7 +112,7 @@ export const PopularTours = () => {
           </div>
 
           {/* Abu Dhabi */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer h-64">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl group h-64">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
               style={{backgroundImage: 'url(/abu-dhabi.jpg)'}}
@@ -140,7 +140,7 @@ export const PopularTours = () => {
         <div className="hidden sm:block lg:hidden">
           <div className="grid grid-cols-2 grid-rows-3 gap-4 h-[600px]">
             {/* Dubai Skyline - spans 2 columns */}
-            <div className="col-span-2 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-2 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/burj.jpg)'}}
@@ -164,7 +164,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Desert Safari */}
-            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/de.jpg)'}}
@@ -185,7 +185,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Grand Mosque */}
-            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/Sheikh.jpg)'}}
@@ -206,7 +206,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Marina and Abu Dhabi side by side */}
-            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/marina.jpg)'}}
@@ -229,7 +229,7 @@ export const PopularTours = () => {
               </div>
             </div>
 
-            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-1 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/abu-dhabi.jpg)'}}
@@ -259,7 +259,7 @@ export const PopularTours = () => {
           <div className="grid grid-cols-4 grid-rows-4 gap-4 h-[500px] xl:h-[600px]">
             
             {/* Dubai Skyline - Large featured image */}
-            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/burj.jpg)'}}
@@ -283,7 +283,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Desert Safari */}
-            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/de.jpg)'}}
@@ -304,7 +304,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Sheikh Zayed Mosque */}
-            <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/Sheikh.jpg)'}}
@@ -325,7 +325,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Dubai Marina */}
-            <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-1 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/marina.jpg)'}}
@@ -349,7 +349,7 @@ export const PopularTours = () => {
             </div>
 
             {/* Abu Dhabi Experience */}
-            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer">
+            <div className="col-span-2 row-span-2 relative overflow-hidden rounded-2xl shadow-xl group">
               <div 
                 className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-110"
                 style={{backgroundImage: 'url(/abu-dhabi.jpg)'}}
