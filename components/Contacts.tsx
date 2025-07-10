@@ -104,7 +104,7 @@ export const Contacts = () => {
                   style={{ backgroundColor: 'rgba(49, 115, 18, 0.1)' }}
                 >
                   <a
-                    href="https://instagram.com/milkywaytravel"
+                    href="https://instagram.com/milkywaytravel_uae"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
