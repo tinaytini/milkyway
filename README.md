@@ -71,7 +71,7 @@ npm run build
 
 ## 📱 Contact
 
-- **Phone**: +971 56 619 9725
+- **Phone**: +971526500295
 - **Email**: milkywaytravel@gmail.com
 - **Instagram**: [@milkywaytravel](https://instagram.com/milkywaytravel)
 

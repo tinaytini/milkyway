@@ -14,7 +14,7 @@ export const FloatingWhatsAppButton = () => {
     
     console.log('WhatsApp button clicked!'); // Debug log
     
-    const phoneNumber = '971566199725';
+    const phoneNumber = '971526500295';
     const defaultMessage = t('contacts.whatsapp.defaultMessage') || "Hi! I'm interested in learning more about your UAE travel services.";
     const message = encodeURIComponent(defaultMessage);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
